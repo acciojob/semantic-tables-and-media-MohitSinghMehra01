@@ -1,63 +1,49 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	 <style>
-    table,
-    th,
-    td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-    </style>
-	<link rel="stylesheet" href="styles.css">
+  <title>Semantic Table and Media</title>
 </head>
-
 <body>
-	<table style="width:70%">
-		<tr>
-			<th>Roll number</th>
-			<th>Name</th>
-		</tr>
-		<tr>
-            <td>01</td>
-            <td>mohit</td>
-            
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>rohit</td>  
-        </tr>
-		 <tr>
-            <td>03</td>
-            <td>rahul</td>  
-        </tr>
+  <table>
+    <thead>
+      <tr>
+        <th>Roll Number</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane Smith</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Michael Johnson</td>
+      </tr>
+    </tbody>
+  </table>
 
-	</table>
+  <h2>List of Medias</h2>
 
-	
-		<ol>
-			<li>
-				<img src = "https://picsum.photos/id/123/200/300" alt="photo">
-			</li>
-		</ol>
-	
-<ol>
-			<li>
-				<video src = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls>
-					<source src = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
-			</li>
-		</ol>
-	
-	<ol>
-			<li>
-				<audio src = "http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls>
-			</li>
-		</ol>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <ol>
+    <li>
+      <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+    </li>
+    <li>
+      <video controls>
+        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+      </video>
+    </li>
+    <li>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+      </audio>
+    </li>
+  </ol>
 </body>
-
 </html>
+``
